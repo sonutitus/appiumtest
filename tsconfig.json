@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "types": ["node", "@wdio/globals/types", "expect-webdriverio", "@wdio/cucumber-framework"],
+    "outDir": "./dist",
+    //"strict": true,
+    "skipLibCheck": true
+  }
+}
